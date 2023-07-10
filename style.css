@@ -5,14 +5,7 @@
 
 /* banner-section starts here... */
 
-/* .banner-container{
-    width: 1920px;
-    height: 850px;
-    background-color: rgba(229, 84, 115, 0.10);
-
-} */
-
-.banner-information{
+.banner-container{
     width: 1920px;
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
@@ -24,11 +17,14 @@
 .banner-text{
     padding-top: 197px;
     padding-left: 240px;
+    padding-bottom: 147px;
 }
 
 .banner-img-flower{
     width: 635px;
     height: 800px;
+    padding-top: 50px;
+    /* padding-right: 240px; */
 }
 
 .banner-head{
@@ -52,6 +48,12 @@
 .banner-btn{
     padding: 20px 43px;
     /* gap: 10px; */
+    border: none;
     border-radius: 8px;
     background-color: #E55473;
+
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
 }
