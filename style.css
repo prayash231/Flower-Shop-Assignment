@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner-section starts here... */
+
+/* .banner-container{
+    width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+
+} */
+
+.banner-information{
+    width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 97px;
+}
+
+.banner-text{
+    padding-top: 197px;
+    padding-left: 240px;
+}
+
+.banner-img-flower{
+    width: 635px;
+    height: 800px;
+}
+
+.banner-head{
+    width: 708px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-paragraph{
+    width: 634px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-btn{
+    padding: 20px 43px;
+    /* gap: 10px; */
+    border-radius: 8px;
+    background-color: #E55473;
+}
