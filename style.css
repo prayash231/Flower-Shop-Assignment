@@ -14,9 +14,6 @@ body{
     display: flex;
 } */
 
-/* .menu-types{
-    display: flex;
-} */
 
 .menu-list{
     width: 1922px;
@@ -121,10 +118,11 @@ body{
 
 .featured-flowers{
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 24px;
     padding-left: 316px;
     padding-right: 316px;
+    gap: 24px;
    
 }
 
@@ -138,22 +136,11 @@ body{
 .flower-2{
     width: 310px;
     height: 428px;
-    padding-top: 110px;
-    padding-left: 76px;
-    padding-right: 78px;
-    /* padding-top: 110px;
-    padding-left: 76px;
-    padding-right: 78px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15); */
-}
+    margin-top: 110px;
+    margin-left: 76px;
+    margin-right: 78px;
 
-/* .bg-img-2{
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-} */
+}
 
 .bg-3{
     width: 464px;
@@ -164,46 +151,31 @@ body{
 
 .flower-3{
     width: 370px;
-    height: 410px;
-    padding-top: 117px;
-    padding-right: 47px;
-    /* padding-bottom: 51px; */
-    padding-left: 47px;
-    /* padding-top: 117px;
-    padding-right: 47px;
-    padding-bottom: 51px;
-    padding-left: 47px;
-
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
-    background: #E55473; */
+    height: 370px;
+    margin-top: 200px;
+    margin-right: 47px;
+    margin-bottom: 51px;
+    margin-bottom: 47px;
 }
 
 .bg-4{
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background:rgba(71, 125, 17, 0.15);
 }
 
 .flower-4{
     width: 314px;
     height: 471px;
-    padding-top: 67px;
-    padding-right: 75px;
-    padding-left: 75px;
-    /* padding-top: 67px;
-    padding-right: 75px;
-    padding-left: 75px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15); */
+    margin-top: 67px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .flower-p{
     text-align: center;
     padding-top: 32px;
-    /* display: none; */
 }
 
 /* delivery section starts here */
@@ -268,7 +240,7 @@ span{
     border-radius: 8px;
     border: none;
     background-color: #E55473;
-
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -349,8 +321,6 @@ form{
     gap: 16px;
 }
 
-
-
 .form-btn{
     width: 150px;
     height: 64px;
@@ -358,7 +328,7 @@ form{
     border: none;
     background-color: #E55473;
     padding: 18.29px 31px;
-
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
