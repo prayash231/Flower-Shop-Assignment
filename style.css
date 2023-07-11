@@ -7,12 +7,42 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+/* menu-section starts here */
 
+/* .menu-container{
+    padding-bottom: 20px;
+    display: flex;
+} */
+
+/* .menu-types{
+    display: flex;
+} */
+
+.menu-list{
+    width: 1922px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    color: #dc742f;
+    background-color: rgb(233, 223, 176);
+}
+
+.menu-logo{
+    width: 200px;
+    /* height: 200px; */
+    /* padding: 5px 10px; */
+}
+
+.menu-options:hover{
+    color: grey;
+    cursor: pointer;
+}
 
 /* banner-section starts here... */
 
 .banner-container{
-    width: 1920px;
+    width: 1922px;
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -57,7 +87,7 @@ body{
     border: none;
     border-radius: 8px;
     background-color: #E55473;
-
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -339,6 +369,7 @@ form{
 
 .footer-section{
     margin-top: 128px;
+    width: 1922px;
     height: 50vh;
     background-color: #111010;
     text-align: center;
