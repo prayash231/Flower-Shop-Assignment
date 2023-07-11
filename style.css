@@ -66,9 +66,9 @@ body{
 /* featured section starts here */
 
 .featured-section{
-   /* height: 100vh; */
-   width: 1920px;
-   height: 4867px;
+   height: 100vh;
+   /* width: 1920px;
+   height: 4867px; */
 }
 
 .featured-heading{
@@ -273,10 +273,63 @@ span{
 }
 
 .form-section{
-    /* text-align: center; */
-    /* width: 1440px;
+    text-align: center;
+    width: 1440px;
     height: 449px;
-    border-radius: 8px; */
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 128px;
     background-image: url("./Flower-Asset/Rectangle\ 9.png");
 }
 
+.form-head{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.form-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+#email{
+    width: 500px;
+    height: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    padding-left: 22px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+
+.form-btn{
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E55473;
+    padding: 18.29px 31px;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
