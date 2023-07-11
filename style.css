@@ -17,7 +17,8 @@ body{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
-    gap: 97px;
+    justify-content: space-around;
+    /* gap: 97px; */
 }
 
 .banner-text{
@@ -30,7 +31,7 @@ body{
     width: 635px;
     height: 800px;
     padding-top: 50px;
-    /* padding-right: 240px; */
+    padding-right: 240px;
 }
 
 .banner-head{
@@ -61,3 +62,221 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+
+/* featured section starts here */
+
+.featured-section{
+   /* height: 100vh; */
+   width: 1920px;
+   height: 4867px;
+}
+
+.featured-heading{
+    padding-top: 178px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.featured-flowers{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 316px;
+    padding-right: 316px;
+   
+}
+
+.bg-2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-2{
+    width: 310px;
+    height: 428px;
+    padding-top: 110px;
+    padding-left: 76px;
+    padding-right: 78px;
+    /* padding-top: 110px;
+    padding-left: 76px;
+    padding-right: 78px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15); */
+}
+
+/* .bg-img-2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+} */
+
+.bg-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3{
+    width: 370px;
+    height: 410px;
+    padding-top: 117px;
+    padding-right: 47px;
+    /* padding-bottom: 51px; */
+    padding-left: 47px;
+    /* padding-top: 117px;
+    padding-right: 47px;
+    padding-bottom: 51px;
+    padding-left: 47px;
+
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: #E55473; */
+}
+
+.bg-4{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-4{
+    width: 314px;
+    height: 471px;
+    padding-top: 67px;
+    padding-right: 75px;
+    padding-left: 75px;
+    /* padding-top: 67px;
+    padding-right: 75px;
+    padding-left: 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15); */
+}
+
+.flower-p{
+    text-align: center;
+    padding-top: 32px;
+    /* display: none; */
+}
+
+/* delivery section starts here */
+
+.flower-delivery{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    margin-top: 195px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.delivery-p{
+    padding-top: 25px;
+}
+
+/* sell-up-section starts here */
+
+.sell-up-section{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* padding-top: 128px; */
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 215px;
+}
+
+.sell-up-h{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+span{
+    color: #E55473;
+}
+
+.sell-up-p{
+    padding-top: 24px;
+    padding-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.sell-up-text{
+   text-align: center;
+}
+
+.sell-up-btn{
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E55473;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* insta section starts here */
+
+.insta-info{
+    text-align: center;
+}
+
+.insta-head{
+    padding-top: 128px;
+}
+
+.insta-p{
+    padding-top: 24px;
+    padding-bottom: 48px;
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.insta-image{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    /* padding-top: 48px; */
+}
+
+.form-section{
+    /* text-align: center; */
+    /* width: 1440px;
+    height: 449px;
+    border-radius: 8px; */
+    background-image: url("./Flower-Asset/Rectangle\ 9.png");
+}
+
